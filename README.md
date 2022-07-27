@@ -31,6 +31,17 @@ I will be working with the zillow dataset and set out to make a model which accu
 - Find which features are best to use in a predictive model.
 - Create a model which accurately predicts home price within +- 10%.
 
+### Data Dictionary
+bed: The number of bedrooms in a house.
+bath: The number of bathrooms in a house.
+square_feet: The square feet of the house structure.
+price: The price of the house. 
+lot_square_feet: The square feet of the lot where the house is located.
+zipcode: The zipcode in which the house is located.
+year_built: The year the house was built. 
+pool: How many pools a house has.
+fireplace: How many fireplaces a house has. 
+
 ## Steps to Reproduce
 1. You will need an env.py file which has the host name, username, and password of the mySQL database that contains the zillow database. Store the env file locally in the repo.
 2. Clone my repo. Confirm .gitignore is hiding your env file.
