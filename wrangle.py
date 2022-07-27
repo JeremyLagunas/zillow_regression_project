@@ -32,8 +32,10 @@ def zillow_clean(df):
     # turn NaN in fireplace and pool to 0's
     df.fireplace = df.fireplace.fillna(value=0)
     df.pool = df.pool.fillna(value=0)
-    # drop null values
+    # drop null values, I dropped the nulls beacause they made up such a small portion of the overall dataset.
     df = df.dropna()
+    
+    #I placed these limits in order to help create a model that is more accurate for 'realistic' homes. There is still substanstial data left even after these limits are in place.
     # only include houses with 6 or less bedrooms
     df = df[df.bed <= 6]
     # only include houses with 6 or less bathrooms
