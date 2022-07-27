@@ -16,20 +16,17 @@ This project will follow the Data Science Pipeline. All steps of of this pipelin
 I will be working with the zillow dataset and set out to make a model which accurately predicts home price, A.K.A. the 'zestimate'.
 
 ### Inital Questions
-1. Are bedrooms more correlated with home price than square feet is?
-2. Is there a linear relationship between square feet and price?
-3. Ist there a linear relationship between bedrooms and price?
+1. Is there a relationship between house square feet and price?
+2. Are houses with more bedrooms priced higher than houses with less bedrooms?
+3. Are houses with more bathrooms priced higher than houses with less bathrooms?
+4. Does the age of a house affect the price?
+5. What are the best price predictors?
 
-### Null Hypothesis
-- The number of bathrooms are not correlated with the home price.
-
-### Alternative Hypothesis
-- There is a correlation between the number of bathrooms and home price. 
 
 ### Project Goals
 - Generate informative visuals to gain a better understanding of the data and how variables interact. 
 - Find which features are best to use in a predictive model.
-- Create a model which accurately predicts home price within +- 10%.
+- Create a model which outperforms the baseline by at least 10%.
 
 ### Data Dictionary
 bed: The number of bedrooms in a house.
